@@ -23,10 +23,10 @@ class App extends Component {
 
     return (
       
-       <div className="container">
+       <div className="container mt-4">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <a class="btn btn-info" href="https://asemdevs.github.io/TIO-Marktets-Test/" role="button">Back to the test</a>
+          <a class="btn btn-info text-white" href="https://asemdevs.github.io/TIO-Marktets-Test/" role="button">Back to the test</a>
           <h1>My Todo's</h1>
           <ul className="list-group">
           {this.state.todos.map((todo) => (
